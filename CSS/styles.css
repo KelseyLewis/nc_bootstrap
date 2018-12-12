@@ -5,7 +5,6 @@ body {
 .navbar-dark {
     background-color: #512DA8;
 }
-}
 .jumbotron {
     padding: 70x 30x 70px 30px;
     margin: 0px auto;
@@ -22,7 +21,7 @@ body {
     border-bottom: 1px ridge;
     min-height: 400px;
 }
-footer {
+.footer {
     background-color: #D1C4E9;
     margin: 0px auto;
     padding: 20px 0px 20px 0px;
