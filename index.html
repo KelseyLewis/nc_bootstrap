@@ -34,7 +34,7 @@
     </nav>
         <header class  = "jumbotron">
             <div class = "container">
-                <div class = "row rowheader">
+                <div class = "row row-header">
                     <div class = "col-12 col-sm-6">
                         <h1>Ristorante con Fusion</h1>
                         <p>We take inspiration from the World's best cuisines, and create a unique fusion experience. Our lipsmacking creations will tickle your culinary senses!</p>
@@ -42,12 +42,15 @@
                     <div class = "col-12 col-sm align-self-center">
                         <img src = "img/logo.png" class = "img-fluid">
                     </div>
+                    <div class = "col-12 col-sm align-self-center">
+                            <a href="#reserve" class="btn btn-block btn-warning" role="button">Reserve Table</a>
+                        </div>
                 </div>
             </div>
     </header>
 
     <div class = "container">
-        <div class = "row rowcontent align-items-center">
+        <div class = "row row-content align-items-center">
             <div class = "col-12 col-sm-4 order-sm-last col-md-3">
                 <h3>Our Lipsmacking Culinary Creations</h3>
             </div>
@@ -65,14 +68,22 @@
             </div>
         </div>
 
-
-        <div class = "row rowcontent align-items-center">
+        <div class = "row row-content align-items-center">
             <div class = "col-12 col-sm-4 col-md-3">
                 <h3>This Month's Promotions</h3>
             </div>
+            <div class = "col col-sm-6 col-md-7">
+                <h2>Weekend Grand Buffet
+                    <span class = "badge badge-danger"> NEW</span>
+                </h2>
+                <p>Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person.</p>
+            </div>
             <div class = "col col-sm col-md">
-                <h2>Weekend Grand Buffet</h2>
-                <p>Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person </p>
+                <div class = "media">
+                    <img class = "d-flex ml-3 img-thumbnail align-self-center" src = "img/buffet.png" alt = "buffet">
+                    <div class = "media-body">
+                    </div>
+                </div>
             </div>
         </div>
 
@@ -92,6 +103,45 @@
             </div>
         </div>
     </div>
+
+<div class = "container">
+    <div class = "row row-content align-items-center">
+        <div class = "col-sm-8 offset-sm-2">
+                <div class = "card">
+                    <h3 class = "card-header bg-warning text-white">Reserve a Table</h3>
+                    <div class = "card-body">
+                        <div class = "form-group row">
+                            <label for = "optradio" class = "col-12 col-md-3 col-form-label">Number of Guests</label>
+                            <div class="radio col">
+                                <label><input type="radio" id = "optradio" name = "optradio" checked>1</label>
+                                <label><input type="radio" id = "optradio" name = "optradio">2</label>
+                                <label><input type="radio" id = "optradio" name = "optradio">3</label>
+                                <label><input type="radio" id = "optradio" name = "optradio">4</label>
+                                <label><input type="radio" id = "optradio" name = "optradio">5</label>
+                                <label><input type="radio" id = "optradio" name = "optradio">6</label>
+                            </div>
+                        </div>
+                        <div class = "form-group row">
+                            <label for = "date" class = "col-12 col-md-3 col-form-label">Date and Time</label>
+                            <div class = "col-12 col-md-5">
+                                <input type = "date" class = "form-control" id = "date" name = "date">
+                            </div>
+                            <div class = "col-12 col-md-4">
+                                <input type = "time" class = "form-control" id = "time" name = "time">
+                            </div>
+                        </div>
+                        <div class = "form-group row">
+                            <div class = "col-md-10 offset-md-3">
+                                <a name = "reserve"><button type = "submit" class = "btn btn-primary">Reserve</button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </div>
+    </div>
+</div>
+            
 
     <footer class = "footer">
         <div class = "container">
